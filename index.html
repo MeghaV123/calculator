@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <form action="">
+<div id="div">
+        <div id="cal" >
+            <input type="text" id="txt"><br>
+       
+            <input type="button" id="div1" value="7" onclick="displayValue(7)">
+            <input type="button" id="div1"value="8" onclick="displayValue(8)">
+            <input type="button" id="div1" value="9" onclick="displayValue(9)">
+            <input type="button" id="div1" value="+" style="background-color:bisque;" onclick="displayValue(`+`)"><br>
+
+            <input type="button" id="div1" value="4" onclick="displayValue(4)">
+            <input type="button" id="div1"value="5" onclick="displayValue(5)">
+            <input type="button" id="div1"value="6" onclick="displayValue(6)">
+            <input type="button" id="div1" value="-" style="background-color:bisque;" onclick="displayValue(`-`)"><br>
+   
+            <input type="button" id="div1"value="1" onclick="displayValue(1)">
+            <input type="button" id="div1"value="2" onclick="displayValue(2)">
+            <input type="button" id="div1"value="3" onclick="displayValue(3)">
+            <input type="button" id="div1"value="*" style="background-color:bisque;" onclick="displayValue(`*`)"><br>
+        
+            <input type="button" id="div1"value="0" onclick="displayValue(0)">
+            <input type="button" id="div1"value="." onclick="displayValue(`.`)">
+            <input type="button" id="div1"value="%" onclick="displayValue(`%`)">
+            <input type="button" id="div1" value="/" style="background-color:bisque;" onclick="displayValue(`/`)"><br>
+
+            <!-- <input type="button" id="div1"value="DEL" onclick="deleteNum()">  -->
+            <input type="button" id="div1" value="CLR" onclick="clearBox()">
+            <input type="button" id="div1"value="^" onclick="displayValue(`^`)">
+            <input type="button" id="div1" value="=" style="background-color:bisque;" onclick="evaluateExpression()"><br>
+            
+        </div>   
+    </div>
+    </form>
+</body>
+<script src="./script.js"></script>
+</html>
